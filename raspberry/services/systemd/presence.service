@@ -1,0 +1,14 @@
+[Unit]
+Description=Presence Service for Raspberry Domotics
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/raspberry-domotics-app/raspberry/services
+ExecStart=/usr/bin/python3 -m services.presence
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target 

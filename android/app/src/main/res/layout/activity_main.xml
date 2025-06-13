@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/containerMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titolettoMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:paddingBottom="7dp"
+            android:text="@string/registrazia"
+            android:textColor="@color/titlePrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/descrizioneMain"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/regDesc"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iconaRegistrazia"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/gear"
+            android:visibility="visible"
+            app:srcCompat="@drawable/registr" />
+
+        <EditText
+            android:id="@+id/usernameMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:maxLength="16"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/passwordMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!?_"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="18"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/raspMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+            android:ems="15"
+            android:hint="@string/id_raspberry"
+            android:inputType="text"
+            android:maxLength="16"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/statusMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="32dp"
+            android:contentDescription="@string/status"
+            android:ems="10"
+            android:text=""
+            android:textColor="@color/warningText"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/submitMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/submit"
+            android:contentDescription="@string/submit"
+            android:onClick="registrazione"
+            android:padding="2sp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alreadyRegisteredMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/status"
+            android:gravity="center_horizontal"
+            android:text="@string/already_registered"
+            android:textColor="@color/secondaryText"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

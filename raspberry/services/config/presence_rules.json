@@ -1,0 +1,5 @@
+{
+  "azione": "Accendi",
+  "notifica": "False",
+  "gpio": [22, 5]
+}

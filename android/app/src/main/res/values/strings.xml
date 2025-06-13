@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Home Manager</string>
+    <string name="true_name">Homer</string>
+    <string name="logo">Logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="id_raspberry">Codice Seriale</string>
+    <string name="submit">Conferma</string>
+    <string name="status">Status</string>
+    <string name="registrazia">Registrazione</string>
+    <string name="logazia">Login</string>
+    <string name="already_registered">Già Registrato? <b>Clicca Qui</b></string>
+    <string name="already_logged">Non hai un Account? <b>Clicca Qui</b></string>
+    <string name="copyright">© copyright 2018-2019 Home Manager Inc.</string>
+    <string name="regDesc">Crea il tuo profilo per collegarti al dispositivo</string>
+    <string name="loginDesc">Bentornato! Accedi al tuo profilo</string>
+    <string name="tempTitle">Temperatura</string>
+    <string name="tempDesc">Gestisci l\'accensione automatica dei dispositivi in base alla temperatura</string>
+    <string name="tempAttuale">Temperatura:</string>
+    <string name="umidAttuale">Umidità:</string>
+    <string name="accendiSpegni">Seleziona quando e quali porte vuoi accendere/spegnere</string>
+    <string name="checkBoxDefault">Checkbox</string>
+    <string name="quandoTemp">Quando temperatura è</string>
+    <string name="salvaModifica">Salva</string>
+    <string name="programTitle">Programmazione</string>
+    <string name="programDesc">Programma l\'accensione automatica dei tuoi dispositivi</string>
+    <string name="titolettoPresenza">Presenza</string>
+    <string name="descriziaPresenza">Gestisci il sensore di presenza</string>
+    <string name="ennesimoProg">PROGRAMMAZIONE</string>
+
+    <string name="logout">Logout</string>
+    <string name="changeport">Modifica porte</string>
+    <string name="vocal_comand">Comando vocale</string>
+    <string name="descriziaDispositivi">Controlla i tuoi dispositivi</string>
+    <string name="comandiVocaliTitle">Assistente Vocale</string>
+    <string name="comandiVocaliDesc">Immetti un comando (es. Accendi cucina)</string>
+
+    <string name="onSwitch">On</string>
+    <string name="offSwitch">Off</string>
+    <string name="lucette">Luci</string>
+
+    <string name="dispositiviTitolo">Lista Dispositivi</string>
+    <string name="dispsubtitle">altra frase generica da scegliere</string>
+
+    <string name="permission_denied"> ✘ Permesso negato</string>
+    <string name="reg_error_login_error"> ✘ Username o password errati </string>
+    <string name="reg_error_userinvalid"> ✘ Username non disponibile</string>
+    <string name="reg_error_raspduplicated"> ✘ ID Raspberry già utilizzato</string>
+    <string name="reg_error_empty"> ✘ Compila tutti i Campi</string>
+    <string name="reg_error_passinvalid"> ✘ Password troppo corta</string>
+    <string name="reg_error_raspinvalid"> ✘ ID Raspberry invalido</string>
+    <string name="reg_success">Registrato con successo</string>
+    <string name="reg_error_rasp_and_user_duplicated"> ✘ Username non disponibile \n✘ ID Raspberry già utilizzato </string>
+
+    <string name="gear">gearImg</string>
+    <string name="conf">Configurazione Iniziale</string>
+    <string name="confDescr">Inserisci il nome dei dispositivi</string>
+    <string name="port1">Porta 1</string>
+    <string name="port2">Porta 2</string>
+    <string name="port3">Porta 3</string>
+    <string name="port4">Porta 4</string>
+    <string name="port5">Porta 5</string>
+    <string name="port6">Porta 6</string>
+    <string name="port7">Porta 7</string>
+    <string name="port8">Porta 8</string>
+
+    <string name="avantiConf">Salva</string>
+
+    <string name="accensioneLink">Accensione automatica</string>
+    <string name="presenzaLink">PRESENZA</string>
+    <string name="temperaturaLink">Sensore Temperatura</string>
+
+    <string name="imageView1">green Tick</string>
+    <string name="imageView1bis">right Arrow</string>
+    <string name="imageView2">green Tick</string>
+    <string name="imageView2bis">right Arrow</string>
+    <string name="imageView3">green Tick</string>
+    <string name="imageView3bis">right Arrow</string>
+
+    <string name="fineConf">Fine</string>
+
+    <string-array name="onOff">
+        <item>Accendi</item>
+        <item>Spegni</item>
+    </string-array>
+
+    <string-array name="maxMin">
+        <item>Maggiore</item>
+        <item>Minore</item>
+    </string-array>
+
+
+    <string name="presenza">PRESENZA</string>
+    <string name="accensioneauto">PROGRAMMAZIONE</string>
+    <string name="temperatura">TEMPERATURA</string>
+    <string name="dispositivi">DISPOSITIVI</string>
+
+    <string name="HomeManager">Home Manager</string>
+
+    <string name="presText">Disattiva sensore</string>
+    <string name="presDescr">Seleziona dispositivi da accendere al passaggio</string>
+    <string name="presDispositivi">Dispositivi:</string>
+    <string name="buttonSalva">Salva</string>
+
+    <string name="appwidget_text">prova</string>
+    <string name="ImgDescr">Microfono</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widTitle">Homer management</string>
+
+
+</resources>

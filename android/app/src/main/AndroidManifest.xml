@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mirelorradie.tesi.homemanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconz"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:noHistory="true" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Configurazione1"
+            android:label="@string/app_name"
+            android:noHistory="true" />
+        <activity
+            android:name=".Home"
+            android:label="@string/HomeManager"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ProgrammaAccensione"
+            android:label="@string/HomeManager" />
+
+        <receiver android:name=".AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="MY_ALARM_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Dispositivi"
+            android:label="@string/HomeManager" />
+        <activity
+            android:name=".temperatura"
+            android:label="@string/HomeManager" />
+        <activity
+            android:name=".SensorePresenza"
+            android:label="@string/HomeManager"/>
+        <activity
+            android:name=".ComandoVocale"
+            android:label="@string/HomeManager"/>
+
+        <receiver android:name=".AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

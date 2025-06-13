@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgrammaAccensione">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/backgroundClock"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/programTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:paddingBottom="7dp"
+            android:text="@string/programTitle"
+            android:textColor="@color/titlePrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/programDescr"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/programDesc"
+            android:textSize="18sp" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:numbersBackgroundColor="@color/colorAccent"
+            android:numbersInnerTextColor="@color/white"
+            android:numbersSelectorColor="@color/black"
+            android:numbersTextColor="@color/titlePrimary"
+            android:layout_gravity="center"
+            android:tooltipText="" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <Switch
+            android:id="@+id/ripeti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Ripeti"
+            android:textSize="16sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:hint="Notifica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/submit"
+            android:textColor="@color/white"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="32dp"
+            android:checked="false"
+            android:onClick="OnToggleClicked"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

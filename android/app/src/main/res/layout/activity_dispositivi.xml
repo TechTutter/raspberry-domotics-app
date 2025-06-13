@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dispositivi">
+
+        <LinearLayout
+            android:id="@+id/linla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="0dp"
+                android:paddingStart="9dp"
+                android:paddingLeft="9dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="9dp"
+                android:text="@string/dispositiviTitolo"
+                android:textColor="@color/titlePrimary"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/descriziaDisp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:paddingStart="9dp"
+                android:paddingLeft="9dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="9dp"
+                android:text="@string/descriziaDispositivi"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Camera"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+
+            <Switch
+                android:id="@+id/switch2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Porta 2"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+
+            <Switch
+                android:id="@+id/switch3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Porta 3"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+
+            <Switch
+                android:id="@+id/switch4"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="16dp"
+                android:text="Porta 4"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+
+            <Switch
+                android:id="@+id/switch5"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Porta 5"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+
+            <Switch
+                android:id="@+id/switch6"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Porta 6"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+            <Switch
+                android:id="@+id/switch7"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Porta 7"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/divisore"
+                android:padding="0dp"
+                android:paddingLeft="0dp" />
+
+            <Switch
+                android:id="@+id/switch8"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:checked="false"
+                android:onClick="accendi"
+                android:padding="14dp"
+                android:text="Porta 8"
+                android:textOff="@string/offSwitch"
+                android:textOn="@string/onSwitch"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+</ScrollView>

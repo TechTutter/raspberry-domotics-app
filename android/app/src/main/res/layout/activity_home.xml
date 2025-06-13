@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/activity_1"
+        android:orientation="vertical"
+
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:gravity="top|center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="dispositivi"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:background="@color/button_1"
+            android:paddingTop="22dp"
+            android:text="@string/dispositivi"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:src="@drawable/dispositivi_btn"
+            android:scaleType="centerCrop"
+            android:background="@color/button_1"
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/activity_2"
+    android:orientation="vertical"
+
+    app:layout_constraintVertical_chainStyle="spread_inside"
+    app:layout_constraintWidth_percent="0.5"
+    app:layout_constraintHeight_percent="0.5"
+    app:layout_constraintLeft_toRightOf="@id/activity_1"
+    app:layout_constraintTop_toTopOf="parent"
+
+    android:gravity="top|center_horizontal"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="accensioneAutomatica"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/ennesimoProg"
+        android:paddingTop="22dp"
+        android:background="@color/button_2"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:src="@drawable/clockeggiamo"
+        android:scaleType="centerCrop"
+        android:background="@color/button_2"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/activity_3"
+        android:orientation="vertical"
+
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toBottomOf="@id/activity_1"
+
+        android:gravity="top|center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="goToSensorePresenza"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/button_3"
+            android:text="@string/presenza"
+            android:paddingTop="22dp"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:src="@drawable/sensore_brn"
+            android:scaleType="centerCrop"
+            android:background="@color/button_3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/activity_4"
+        android:orientation="vertical"
+
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintLeft_toRightOf="@id/activity_3"
+        app:layout_constraintTop_toBottomOf="@id/activity_2"
+
+        android:gravity="top|center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="temperatura"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:text="@string/temperatura"
+        android:paddingTop="22dp"
+        android:textColor="@color/black"
+        android:background="@color/button_4"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:src="@drawable/temperatura_btn"
+        android:scaleType="centerCrop"
+        android:background="@color/button_4"
+        />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

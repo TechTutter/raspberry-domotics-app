@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#273236</color>
+    <color name="colorPrimaryDark">#22272B</color>
+    <color name="sfondoHome">#ffffff</color>
+
+    <color name="titlePrimary">#1f808f</color>
+    <color name="secondz">#53a4b1</color>
+    <color name="divisore">#dddddd</color>
+    <color name="prova">#161616</color>
+
+    <color name="backgroundClock">#f9f9f9</color>
+
+    <color name="warningText">#EE0000</color>
+    <color name="warningBg">#ff7171</color>
+    <color name="colorAccent">#273236</color>
+    <color name="backgroundColor">#f9f9f9</color>
+    <color name="black">#161616</color>
+    <color name="white">#f9f9f9</color>
+    <color name="secondaryText">#4b4949</color>
+    <color name="submit">#273236</color>
+
+    <color name="button_1">#a5cfdc</color>
+    <color name="button_2">#93bcbf</color>
+    <color name="button_3">#a0bdc9</color>
+    <color name="button_4">#8aa8c6</color>
+
+</resources>
