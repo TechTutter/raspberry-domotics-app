@@ -154,3 +154,9 @@ raspberry-domotics/
 - `POST /getTemperatura`: Get current temperature and humidity
 - `GET /seriale`: Get Raspberry Pi serial number
 - `POST /tokenSensore`: Verify sensor token
+
+## Contributors
+
+- [DieAMD](https://github.com/dieAMD)
+- [Mirwe](https://github.com/Mirwe)
+- [TechTutter](https://github.com/TechTutter)
