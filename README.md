@@ -15,11 +15,7 @@ Raspberry Domotics is a comprehensive home automation system leveraging Raspberr
 
 The final project featured a full circuit to connect the raspberry to a relay and multiple devices using a breadboard. I connected a couple of sensors, a small PC fan, and some light bulbs, that could be controlled remotely by the app in multiple ways. It is possible for example to turn on / off lights with voice commands, or to automatically trigger the fan when the temperature is above a specific threshold, or turn off a light at a predefined time.
 
-<p style="text-align:center;">
-  <video height="420px" src="./assets/short-demo.mp4" width="auto" controls>
-    Your browser does not support the video tag.
-  </video>
-</p>
+> See short demo [here](./assets/short-demo.mp4)
 
 ## Features
 
